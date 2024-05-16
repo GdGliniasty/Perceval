@@ -159,7 +159,7 @@ class PostSelect:
 
     def can_compose_with(self, modes: List[int]) -> bool:
         """
-        Check if all conditions are compatible with a compisition on given modes
+        Check if all conditions are compatible with a composition on given modes
 
         :param modes: Modes used in the composition
         :return: `True` if the composition is allowed without mixing conditions, `False` otherwise
